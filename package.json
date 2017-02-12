@@ -1,0 +1,29 @@
+{
+  "name": "happy hours",
+  "version": "1.0.0",
+  "description": "A sample Oracle JavaScript Extension Toolkit (JET) web app",
+  "author": {
+    "name": "Oracle Jet Team"
+  },
+  "scripts": {
+      "start": "node lib/server"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bowercopy": "1.2.4",
+    "grunt-oraclejet": "~2.3.0",
+    "load-grunt-config": "0.19.2",
+    "oraclejet-tooling": "~2.3.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0",
+    "moment": "^2.17.1",
+    "redis": "^2.6.5"
+  }
+}
