@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.15.3",
     "lodash": "^4.17.4",
+    "pubnub": "^4.4.3",
     "vue": "^2.1.0",
     "vue-chartjs": "^2.3.4"
   },
